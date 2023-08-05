@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Palantir</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1><a href="index.html">What is Palantir</a></h1>
+    <!-- 
+    <input type="button" value="night" onclick="
+    document.querySelector('body').style.backgroundColor = 'black';
+    document.querySelector('body').style.color = 'white';
+    ">
+        <input type="button" value="day" onclick="
+    document.querySelector('body').style.backgroundColor = 'white';
+    document.querySelector('body').style.color = 'black';
+    ">
+    -->
+    <input type="button" value="night" onclick="
+        var target = document.querySelector('body');
+        if (this.value === 'night'){
+            target.style.backgroundColor = 'black';
+            target.style.color = 'white';
+            this.value = 'day';
+        } else {
+            target.style.backgroundColor = 'white';
+            target.style.color = 'black';
+            this.value = 'night';
+        }
+    ">
+    <div id="grid">
+        <ol>
+            <li><a href="Palantir_History.html"> Palantir History</a></li>
+            <li><a href="Peter_Thiel.html"> Peter Thiel</a></li>
+            <li><a href="Alexander_Karp.html"> Alexander Karp</a></li>
+        </ol>
+        <!--
+    <h1><a href="index.html"><font color="red">What is Palantir</font></a></h1>
+    <ol>
+        <li><a href="Palantir_History.html"><font color="red">Palantir History</font></a></li>
+        <li><a href="Peter_Thiel.html"><font color="red">Peter Thiel</font></a></li>
+        <li><a href="Alexander_Karp.html"><font color="red">Alexander Karp</font></a></li>
+    </ol>
+-->
+        <div id="article">
+            <h2>Palantir 최고의 AI회사</h2><img src="palantir.jpg" width="450">
+            <p style="margin-toop:45px;"><strong><a href="https://en.wikipedia.org/wiki/Palantir_Technologies"
+                        target="_blank" title="Palantir Wikipedia" style="color:black;">Palantir
+                        Technologies</a> is a public American company
+                    that specializes
+                    in big data analytics.</strong> <u> in Denver,
+                    Colorado, it was founded by Peter Thiel, Nathan Gettings, Joe Lonsdale, Stephen Cohen, and Alex
+                    Karp
+                    in
+                    2003.</u>
+                The company's name is derived from The Lord of the Rings where the magical palantíri were
+                "seeing-stones,"
+                described as
+                indestructible balls of crystal used for communication and to see events in other parts of the
+                world.
+            </p>
+            <p>The
+                company is
+                known for three projects in particular: Palantir Gotham, Palantir Apollo, and Palantir Foundry.
+                Palantir
+                Gotham
+                is
+                used
+                by counter-terrorism analysts at offices in the United States Intelligence Community (USIC) and
+                United
+                States
+                Department
+                of Defense.[4] In the past, Gotham was used by fraud investigators at the Recovery Accountability
+                and
+                Transparency
+                Board, a former US federal agency which operated from 2009 to 2015. Gotham was also used by cyber
+                analysts
+                at
+                Information Warfare Monitor, a Canadian public-private venture which operated from 2003 to 2012.
+                Palantir
+                Apollo
+                is
+                the
+                operating system for continuous delivery and deployment across all environments.[5] Their SaaS is
+                one of
+                five
+                offerings
+                authorized for Mission Critical National Security Systems (IL5) by the U.S. Department of
+                Defense.[6][7]
+                Palantir
+                Foundry is used by corporate clients such as Morgan Stanley, Merck KGaA, Airbus, Wejo, Lilium, PG&E
+                and
+                Fiat
+                Chrysler Automobiles.
+            </p>
+        </div>
+    </div>
+    <input type="button" value="night" onclick="
+        var target = document.querySelector('body');
+        if (this.value === 'night'){
+            target.style.backgroundColor = 'black';
+            target.style.color = 'white';
+            this.value = 'day';
+        } else {
+            target.style.backgroundColor = 'white';
+            target.style.color = 'black';
+            this.value = 'night';
+        }
+    ">
+</body>
+
+</html>
